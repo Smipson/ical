@@ -1,121 +1,47 @@
-[
-  {
-    "name": "暑假",
-    "start": "2024-07-29",
-    "end": "2024-08-04",
-    "description": "暑假，8月1日学年开始",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2024-08-05",
-    "end": "2024-08-11",
-    "description": "暑假",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2024-08-12",
-    "end": "2024-08-18",
-    "description": "暑假",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2024-08-19",
-    "end": "2024-08-25",
-    "description": "暑假",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2024-08-26",
-    "end": "2024-09-01",
-    "description": "暑假",
-    "semester": ""
-  },
-  {
-    "name": "开学",
-    "start": "2024-09-02",
-    "end": "2024-09-02",
-    "description": "9月2日开学，上课",
-    "semester": ""
-  },
-  {
-    "name": "期末考试",
-    "start": "2025-01-13",
-    "end": "2025-01-19",
-    "description": "上课，复习考试",
-    "semester": ""
-  },
-  {
-    "name": "寒假",
-    "start": "2025-01-20",
-    "end": "2025-01-26",
-    "description": "寒假",
-    "semester": ""
-  },
-  {
-    "name": "寒假",
-    "start": "2025-01-27",
-    "end": "2025-02-02",
-    "description": "寒假，春节",
-    "semester": ""
-  },
-  {
-    "name": "寒假",
-    "start": "2025-02-03",
-    "end": "2025-02-09",
-    "description": "寒假",
-    "semester": ""
-  },
-  {
-    "name": "开学",
-    "start": "2025-02-13",
-    "end": "2025-02-13",
-    "description": "寒假，2月13日（周四）开学，上课",
-    "semester": ""
-  },
-  {
-    "name": "寒假",
-    "start": "2025-02-10",
-    "end": "2025-02-12",
-    "description": "寒假，2月13日（周四）开学，上课",
-    "semester": ""
-  },
-  {
-    "name": "期末考试",
-    "start": "2025-06-30",
-    "end": "2025-07-06",
-    "description": "上课，复习考试",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2025-07-07",
-    "end": "2025-07-13",
-    "description": "暑假",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2025-07-14",
-    "end": "2025-07-20",
-    "description": "暑假",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2025-07-21",
-    "end": "2025-07-27",
-    "description": "暑假",
-    "semester": ""
-  },
-  {
-    "name": "暑假",
-    "start": "2025-07-28",
-    "end": "2025-08-03",
-    "description": "暑假",
-    "semester": ""
-  }
-]
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//2024-2025学年广州市义务教育学校校历//CN
+BEGIN:VEVENT
+SUMMARY:开学
+DTSTART;TZID=Asia/Shanghai:20240902T000000
+DTEND;TZID=Asia/Shanghai:20240903T000000
+DESCRIPTION:9月2日开学，上课
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:期末考试
+DTSTART;TZID=Asia/Shanghai:20250113T000000
+DTEND;TZID=Asia/Shanghai:20250120T000000
+DESCRIPTION:上课，复习考试
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:开学
+DTSTART;TZID=Asia/Shanghai:20250213T000000
+DTEND;TZID=Asia/Shanghai:20250214T000000
+DESCRIPTION:寒假，2月13日（周四）开学，上课
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:期末考试
+DTSTART;TZID=Asia/Shanghai:20250630T000000
+DTEND;TZID=Asia/Shanghai:20250707T000000
+DESCRIPTION:上课，复习考试
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:寒假
+DTSTART;TZID=Asia/Shanghai:20250120T000000
+DTEND;TZID=Asia/Shanghai:20250213T000000
+DESCRIPTION:春节 寒假，2月13日（周四）
+ 开学，上课
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:暑假
+DTSTART;TZID=Asia/Shanghai:20240729T000000
+DTEND;TZID=Asia/Shanghai:20240902T000000
+DESCRIPTION:暑假，8月1日学年开始
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:暑假
+DTSTART;TZID=Asia/Shanghai:20250707T000000
+DTEND;TZID=Asia/Shanghai:20250804T000000
+DESCRIPTION:暑假
+END:VEVENT
+END:VCALENDAR
